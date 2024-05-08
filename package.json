@@ -2,7 +2,7 @@
   "name": "p3-react-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://renzrph.github.io/",
+  "homepage": "https://renzrph.github.io/pharmareview-ph/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
