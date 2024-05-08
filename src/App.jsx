@@ -10,15 +10,15 @@ import ModuleSix from "./pages/ModuleSix/ModuleSix";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/pharmareview-ph">
       <Routes>
-        <Route path="/pharmareview-ph" element={<SelectModule />} />
-        <Route path="/pharmareview-ph/module-1" element={<ModuleOne />} />
-        <Route path="/pharmareview-ph/module-2" element={<ModuleTwo />} />
-        <Route path="/pharmareview-ph/module-3" element={<ModuleThree />} />
-        <Route path="/pharmareview-ph/module-4" element={<ModuleFour />} />
-        <Route path="/pharmareview-ph/module-5" element={<ModuleFive />} />
-        <Route path="/pharmareview-ph/module-6" element={<ModuleSix />} />
+        <Route path="/" element={<SelectModule />} />
+        <Route path="/module-1" element={<ModuleOne />} />
+        <Route path="/module-2" element={<ModuleTwo />} />
+        <Route path="/module-3" element={<ModuleThree />} />
+        <Route path="/module-4" element={<ModuleFour />} />
+        <Route path="/module-5" element={<ModuleFive />} />
+        <Route path="/module-6" element={<ModuleSix />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
